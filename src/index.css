@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;  
+
+
+* {
+   font-family: "Roboto", sans-serif;
+   font-weight: 100;
+   font-style: normal;
+}  
+span {
+    font-family: inherit;
+    font-weight: inherit;
+}
+.stoneShadow{
+    box-shadow: 2px 4.5px rgb(190, 255, 190)
+}
+.stoneShadow:hover{ 
+    transform: translate(-4px -4px);
+    box-shadow: 2px 4px 0 0 rgb(228, 216, 249)
+}
+
+.ExcersiseShadow{
+  box-shadow: 1px 1.2px #f0dcff
+}
+
+  .bg-image-container {
+    position: relative; /* Make the container relative for positioning */
+  }
+  
+  .bg-image-container::before {
+    content: ""; /* Required for pseudo-elements */
+    background-image:  url('./assets/images/bgGym.jpg'); /* Replace with your actual image path */
+    background-size:cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;  
+    left: 0;
+    opacity:0.1; 
+    background-repeat: no-repeat;
+    transition: opacity 1.7s ease; /*smooth transition effect */
+  }
+  
+  .bg-image-container:hover::before {
+    opacity: 0.7; 
+  }
+  
+ 
