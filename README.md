@@ -1,3 +1,5 @@
+![alexfitGymLogo](https://github.com/user-attachments/assets/a2228341-a5ab-444a-a39f-f8042775b292)
+
 # Welcome to AlexFit Gym!
 AlexFit Gym is your ultimate destination for achieving your fitness goals. 
 Our web app is designed using reactJS  to provide you with a seamless and engaging experience, 
